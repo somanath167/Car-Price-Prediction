@@ -1,8 +1,8 @@
 
-Car Price Prediction
+**Car Price Prediction**
 This project aims to predict the prices of used cars based on various features, such as the car's name, company, year of manufacture, kilometers driven, fuel type, and more. The goal is to create a machine learning model that can accurately estimate the selling price of a car using a dataset of historical car sales. The primary model used for prediction is Linear Regression.
 
-Dataset
+**Dataset**
 The dataset used in this project contains the following features:
 
 name: The model name of the car
@@ -14,7 +14,8 @@ fuel_type: The type of fuel used (e.g., Petrol, Diesel, etc.)
 Project Structure
 data_preprocessing.ipynb: This notebook covers data cleaning, preprocessing, and exploratory data analysis (EDA).
 model_training.ipynb: The notebook that contains the machine learning model training and evaluation.
-Key Steps
+
+**Key Steps**
 1. Data Preprocessing
 Handling missing values: Cleaning the dataset by addressing missing or erroneous data.
 One-Hot Encoding: Converting categorical features (e.g., fuel type, company) into numerical form using one-hot encoding.
